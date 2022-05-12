@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="2" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-01T15:09:41Z" name="Default suite" finished-at="2022-05-01T15:10:38Z" duration-ms="56660">
+    <groups>
+    </groups>
+    <test started-at="2022-05-01T15:09:41Z" name="Default test" finished-at="2022-05-01T15:10:38Z" duration-ms="56660">
+      <class name="com.arsh.demoactitime.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.arsh.demoactitime.testcases.LoginPageTest@1cb346ea]" started-at="2022-05-01T20:39:41Z" name="setUp" finished-at="2022-05-01T20:39:55Z" duration-ms="13593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:com.arsh.demoactitime.testcases.LoginPageTest@1cb346ea]" started-at="2022-05-01T20:39:55Z" name="loginTest" finished-at="2022-05-01T20:39:55Z" duration-ms="25" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.arsh.demoactitime.pages.LoginPage.login(LoginPage.java:35)
+	at com.arsh.demoactitime.testcases.LoginPageTest.loginTest(LoginPageTest.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.arsh.demoactitime.testcases.LoginPageTest@1cb346ea]" started-at="2022-05-01T20:39:55Z" name="tearDown" finished-at="2022-05-01T20:39:56Z" duration-ms="1484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.arsh.demoactitime.testcases.LoginPageTest@1cb346ea]" started-at="2022-05-01T20:39:56Z" name="setUp" finished-at="2022-05-01T20:40:11Z" duration-ms="14643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginPageLogoTest()[pri:0, instance:com.arsh.demoactitime.testcases.LoginPageTest@1cb346ea]" started-at="2022-05-01T20:40:11Z" name="validateLoginPageLogoTest" finished-at="2022-05-01T20:40:11Z" duration-ms="6" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.arsh.demoactitime.pages.LoginPage.validateLoginPageLogo(LoginPage.java:32)
+	at com.arsh.demoactitime.testcases.LoginPageTest.validateLoginPageLogoTest(LoginPageTest.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPageLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.arsh.demoactitime.testcases.LoginPageTest@1cb346ea]" started-at="2022-05-01T20:40:11Z" name="tearDown" finished-at="2022-05-01T20:40:12Z" duration-ms="1547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.arsh.demoactitime.testcases.LoginPageTest@1cb346ea]" started-at="2022-05-01T20:40:12Z" name="setUp" finished-at="2022-05-01T20:40:24Z" duration-ms="11071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginPageTitleTest()[pri:0, instance:com.arsh.demoactitime.testcases.LoginPageTest@1cb346ea]" started-at="2022-05-01T20:40:24Z" name="validateLoginPageTitleTest" finished-at="2022-05-01T20:40:24Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.arsh.demoactitime.testcases.LoginPageTest@1cb346ea]" started-at="2022-05-01T20:40:24Z" name="tearDown" finished-at="2022-05-01T20:40:25Z" duration-ms="1346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.arsh.demoactitime.testcases.LoginPageTest@1cb346ea]" started-at="2022-05-01T20:40:25Z" name="setUp" finished-at="2022-05-01T20:40:36Z" duration-ms="11368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginPageURLTest()[pri:0, instance:com.arsh.demoactitime.testcases.LoginPageTest@1cb346ea]" started-at="2022-05-01T20:40:36Z" name="validateLoginPageURLTest" finished-at="2022-05-01T20:40:36Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPageURLTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.arsh.demoactitime.testcases.LoginPageTest@1cb346ea]" started-at="2022-05-01T20:40:36Z" name="tearDown" finished-at="2022-05-01T20:40:38Z" duration-ms="1475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.arsh.demoactitime.testcases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
